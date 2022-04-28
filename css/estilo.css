@@ -28,3 +28,22 @@ figure{
 .img_corpo{
     width: 80%;
 }
+/* unvisited link */
+a:link {
+    color: aquamarine;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: 	#708090;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
