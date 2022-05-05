@@ -4,7 +4,7 @@ body{
 
 p{
     color: #D2691E;
-    font-size: 1,5em;
+    font-size: 1.5em;
 
 }
 
@@ -30,20 +30,21 @@ figure{
 }
 /* unvisited link */
 a:link {
-    color: aquamarine;
+    color: #A0522D;
   }
   
   /* visited link */
   a:visited {
-    color: 	#708090;
+    color: 	#CD853F;
   }
   
   /* mouse over link */
   a:hover {
-    color: black;
+    color: #DEB887;
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    color: #F4A460;
   }
+  
