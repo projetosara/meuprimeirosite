@@ -8,9 +8,20 @@ body{
   
 }
 
+.itens_menu{
+  padding-top: 1%;
+  line-height:1.5;
+  text-align: center;
+  font: 1.3em;
+}
+
+h1{
+  font-size: 2em;
+}
+
 p{
     color: #D2691E;
-    font-size: 1.5em;
+    font: size 1.5em;
 
 }
 
@@ -54,3 +65,7 @@ a:link {
     color: #F4A460;
   }
   
+  footer{
+    background-color: rgba(160, 82, 45, 0.3);
+    padding: 0,5%;
+  }
