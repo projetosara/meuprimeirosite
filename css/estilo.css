@@ -90,6 +90,7 @@ a:link {
   footer{
     background-color: rgba(160, 82, 45, 0.3);
     padding: 0,5%;
+    text-align: center;
   }
 
   .botao{
