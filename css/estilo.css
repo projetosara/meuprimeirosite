@@ -147,3 +147,13 @@ a:link {
     margin-bottom: 2%;
     width: 25%;
   }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td,th{
+    border: 2px solid #8B4726;
+    font-family: 'OxygenMono-Regular', cursive;
+    color: #D2691E;
+  }
+  tr:hover {background-color: burlywood;}
