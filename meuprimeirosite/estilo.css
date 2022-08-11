@@ -1,0 +1,159 @@
+@font-face {
+  font-family: OxygenMono-Regular;
+  src: url(../font/OxygenMono-Regular.ttf);
+}
+@font-face {
+  font-family: CutiveMono-Regular;
+  src: url(../font/CutiveMono-Regular.ttf);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFFACD;
+}
+
+.menu{
+  background-color: rgba(160, 82, 45, 0.3);
+  padding: 2%;
+  font-family: CutiveMono-Regular;
+  
+}
+
+.itens_menu{
+  padding-top: 1%;
+  line-height:1.5;
+  text-align: center;
+  font: 1.3em;
+}
+
+.itens_menu a:visited, .itens_menu a:link{
+  color: #8B4726; 
+  text-decoration: none; 
+  font-weight: bolder;
+}
+
+.itens_menu a:hover{
+  background-color: rgba(160, 82, 45, 0.8);
+  padding: 0.5%;
+}
+h1{
+  font-size: 2em;
+}
+
+p{
+    color: #D2691E;
+    font-size:  1.5em;
+    line-height: 1.3;
+    text-align: justify;
+    font-family: 'OxygenMono-Regular', cursive;
+}
+
+h1,h2{
+    color:#A0522D;
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Syne Mono', monospace;
+}
+figure{
+    text-align: center;
+}
+.container{
+   width:70%; 
+   margin: auto;
+}
+
+.img_topo{
+    width: 90%;
+}
+
+.img_corpo{
+    width: 80%;
+}
+/* unvisited link */
+a:link {
+    color: #A0522D;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: 	#CD853F;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #DEB887;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #F4A460;
+  }
+  
+  #mais a:link, #mais a:visited{
+    color: #A0522D;
+  }
+  #mais a:hover{
+    color: black;
+  }
+  footer{
+    background-color: rgba(160, 82, 45, 0.3);
+    padding: 0,5%;
+    margin-top: 2%;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .botao{
+    margin: 1%;
+    width: 110px;
+    height: 30px;
+    padding: 2%;
+    background-color: rgba(205, 133, 63, 0.8);
+    margin: auto;
+  }
+  .botao:hover{
+    background-color: #A0522D;
+  }
+  .botao a:link .botao a:visited{
+    color: #D2691E;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  .botao p{
+    text-align: center;
+  }
+
+  section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .img_direita{
+    float: right;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+  }
+  .img_esquerda{
+    float: left;
+    margin-right: 2%;
+    margin-top: 1.3%;
+    margin-bottom: 2%;
+    width: 25%;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td,th{
+    border: 2px solid #8B4726;
+    font-family: 'OxygenMono-Regular', cursive;
+    color: #D2691E;
+  }
+  tr:hover {background-color: burlywood;}
