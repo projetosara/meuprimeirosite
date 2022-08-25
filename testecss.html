@@ -15,12 +15,81 @@
         p{
             background-color: #87CEFA;
         }
+        .container{
+            position: relative;
+            background-color: aquamarine;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(123, 10, 228);
+        }
+        .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: green;
+        }
+        .abaixoesquerda{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: red;
+        }
+        .abaixodireita{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: blue;
+        }
+        .centro{
+            position: absolute;
+            top: 50%;
+            font-size: 18px;
+            width: 20%;
+            background-color: yellow;
+            margin-left: 40%;
+        }
+        .fixo{
+            position: fixed;
+            top:0;
+            right: 0;
+            left: 0;
+           z-index: 1030;
+            background-color: purple;
+        }
+        .main{
+            margin-top: 8%;
+        }
+
+        
     </style>
 </head>
 <body>
-    <h1 style="border-color: black; border-style: groove;" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste itaque numquam mollitia? Nisi veniam corporis iure illo, quae eos quaerat cum repudiandae deleniti laboriosam eum. Excepturi sunt in blanditiis aliquam.</h1>
-    <p style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cum impedit facere necessitatibus aut illum alias quos beatae eius dolor quae molestiae voluptate, laudantium, possimus ut voluptatem, soluta dicta maiores!</p>
-    <p style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima minus non neque culpa? Veritatis assumenda tempora consequuntur maiores, voluptate doloribus porro laudantium, rem provident nostrum, harum dolorem laboriosam iure ex!</p>
-    <a href="index.html"><div> Voltar página inícial</div></a>
+    <header class="fixo">
+        <h1>TESTANDO POSICIONAMENTO</h1>
+    </header>
+    <div class="main">
+        <h1>TESTEEE</h1>
+            <div class="container">
+                <div class="topoesquerda">TOPO ESQUERDO</div>
+                <div class="topodireita">TOPO DIREITA</div>
+                <div class="abaixoesquerda">ABAIXO ESQUERDA</div>
+                <div class="abaixodireita">ABAIXO DIREITA</div>
+                <div class="centro">CENTRO</div>
+            </div>
+    </div>
 </body>
 </html>
