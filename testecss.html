@@ -4,92 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste CSS interno e inline</title>
+    <title> Teste CSS interno e Inline </title>
     <style>
         body{
-            background-color: #4682B4;
+            background-color: rgb(255, 255, 255);
         }
+
         h1{
-            background-color: #87CEEB;
+            text-align: center;
+            font-weight: bold;
         }
         p{
-            background-color: #87CEFA;
+            color: rgba(243, 247, 23, 0.904);
         }
+
         .container{
-            position: relative;
-            background-color: aquamarine;
+            position:relative;
+            background-color: blueviolet;
             width: 100%;
             height: 1220px;
             text-align: center;
         }
+
         .topoesquerda{
             position: absolute;
             top: 16px;
             left: 16px;
             font-size: 18px;
             width: 20%;
-            background-color: rgb(123, 10, 228);
+            background-color: rgb(0, 119, 255);
+
         }
+
         .topodireita{
             position: absolute;
             top: 16px;
             right: 16px;
             font-size: 18px;
             width: 20%;
-            background-color: green;
+            background-color: rgb(255, 0, 0);
+
         }
-        .abaixoesquerda{
+
+        .centro{
             position: absolute;
-            bottom: 8px;
+            top: 50%;
+            right: 40%;
+            width: 20%;
+            text-align: center;
+            font-size: 18px;
+            background-color: rgb(225, 0, 255);
+
+        }
+
+        .baixoesquerda{
+            position: absolute;
+            bottom: 16px;
             left: 16px;
             font-size: 18px;
             width: 20%;
-            background-color: red;
+            background-color: rgb(255, 208, 0);
         }
-        .abaixodireita{
+
+        .baixodireita{
             position: absolute;
             bottom: 16px;
             right: 16px;
             font-size: 18px;
             width: 20%;
-            background-color: blue;
-        }
-        .centro{
-            position: absolute;
-            top: 50%;
-            font-size: 18px;
-            width: 20%;
-            background-color: yellow;
-            margin-left: 40%;
-        }
-        .fixo{
-            position: fixed;
-            top:0;
-            right: 0;
-            left: 0;
-           z-index: 1030;
-            background-color: purple;
-        }
-        .main{
-            margin-top: 8%;
+            background-color: rgb(255, 208, 0);
         }
 
-        
+        .fixo{
+            position: fixed;
+            z-index: 1030;
+            right: 0%;
+            left: 0%;
+            top: 0%;
+        }
+
+
     </style>
 </head>
 <body>
-    <header class="fixo">
-        <h1>TESTANDO POSICIONAMENTO</h1>
+    
+    <header>
+        <h1 class="fixo" style="background-color:brown;color: cyan;"> Teste CSS interno e Inline </h1>
+        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
+        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, corporis molestias itaque, ut perferendis tempora voluptate quibusdam beatae ea voluptas omnis rem commodi laboriosam odit nostrum architecto, quaerat consectetur corrupti!</p>
     </header>
     <div class="main">
-        <h1>TESTEEE</h1>
-            <div class="container">
-                <div class="topoesquerda">TOPO ESQUERDO</div>
-                <div class="topodireita">TOPO DIREITA</div>
-                <div class="abaixoesquerda">ABAIXO ESQUERDA</div>
-                <div class="abaixodireita">ABAIXO DIREITA</div>
-                <div class="centro">CENTRO</div>
-            </div>
+        <h1>Testando....</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsq</div>
+            <div class="topodireita">TopoDir</div>
+            <div class="baixoesquerda">BaixoEsq</div>
+            <div class="baixodireita">BaixoDir</div>
+            <div class="centro">Centro</div>
+        </div>
+
     </div>
 </body>
 </html>
