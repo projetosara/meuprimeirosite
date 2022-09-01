@@ -167,4 +167,50 @@ a:link {
     background-color: #DEB887;
     
   }
+  input[type=text], select, input[type=email], input[type=submit], input[type=tel], input[type=message] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+input[type=submit]:hover {
+    background-color: #DEB887;
+  }
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+ }
+
+ .form{
+    border-radius: 15px;
+    background-color: #F8F8FF;
+    padding: 10px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+form{
+    box-sizing: border-box;
+}
   
