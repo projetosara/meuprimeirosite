@@ -12,7 +12,12 @@ html{
 }
 
 body{
-    background-color: #FFFACD;
+  background-color: #FFFACD;
+}
+
+header{
+  position: fixed;
+  width: 100%;
 }
 
 .menu{
@@ -27,12 +32,6 @@ body{
   line-height:1.5;
   text-align: center;
   font: 1.3em;
-}
-
-.itens_menu a:visited, .itens_menu a:link{
-  color: #8B4726; 
-  text-decoration: none; 
-  font-weight: bolder;
 }
 
 .itens_menu a:hover{
@@ -65,12 +64,23 @@ figure{
    margin: auto;
 }
 
+.img_logo{
+  width: 10%;
+ 
+}
+
+.logo{
+  text-align: center;
+}
+
 .img_topo{
     width: 90%;
 }
 
 .img_corpo{
     width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 /* unvisited link */
 a:link {
@@ -150,6 +160,7 @@ a:link {
   table{
     width: 100%;
     border-collapse: collapse;
+    text-align: center;
   }
   td,th{
     border: 2px solid #8B4726;
@@ -202,12 +213,28 @@ label {
   display: table;
   clear: both;
 }
+
+input[type=submit] {
+  background-color: #8B4513 ;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 1%;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 450px) {
 
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
-    background-color: aqua;
   }
 
   .form{  
