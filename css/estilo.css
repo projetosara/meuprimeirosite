@@ -20,7 +20,7 @@ header{
   top: 0;
   right: 0;
   left: 0;
-  background-color: rgba(160, 82, 45, 0.3);
+  background-color: #CD853F;
   padding: 2%;
   font-family: CutiveMono-Regular;
   display: flex;
@@ -31,7 +31,8 @@ header{
 .fixo{
   position: fixed;
   width: 100%;
-  z-index: column;
+  z-index: 1000;
+  top: 0;
 }
 
 .itens_menu{
@@ -42,7 +43,7 @@ header{
 .itens_menu li {
   font-size: 1.3em;
   line-height: 1.5;
-  padding: 1px;
+ 
 }
 
 .itens_menu a:visited, .itens_menu a:link{
@@ -52,13 +53,11 @@ header{
 }
 
 .itens_menu a:hover{
-  background-color: rgba(160, 82, 45, 0.8);
+  background-color: #CD853F;
   padding: 0.5%;
 }
 
-h1{
-  font-size: 2em;
-}
+
 
 p{
     color: #D2691E;
@@ -72,6 +71,7 @@ h1,h2{
     color:#A0522D;
     text-align: center;
     margin-bottom: 2%;
+    font-size: 2em;
     font-family: 'Syne Mono', monospace;
 }
 
@@ -83,6 +83,7 @@ figure{
    width:70%; 
    margin: auto;
    margin-top: 10%;
+   position: relative;
 }
 
 .logo {
@@ -223,8 +224,8 @@ a:link {
     margin: 8px 0;
     border: 1px solid #000000
     border-radius: 25px;
-    box-sizing: border-box;
-    resize: :vertical
+    box-sizing:border-box;
+    resize:vertical
     font-family: 'Baloo 2', cursive;
   }
 
@@ -291,6 +292,18 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+  .logo{
+    text-align: center;
+  }
+  .img_logo{
+    width: 20%;
+  }
+  .banner{
+    margin-top: 40%;
+  }
+  .descer{
+    margin-top: 50%;
+  }
 
 }
 @media screen and (min-width: 601px) {
@@ -301,13 +314,29 @@ input[type=submit]:hover {
   .itens_menu{
     position: absolute;
     right: 6%;
-    top: 45%;
     width: 70%;
 }
 
 .itens_menu ul li{
     display: inline;
     margin-left: 1%;
+}
+
+.img_logo{
+  width: 30%;
+}
+
+.logo{
+  width: 30%;
+  text-align: left;
+}
+
+.banner{
+  margin-top: 10%;
+}
+
+.descer{
+  margin-top: 10%;
 }
 
 
