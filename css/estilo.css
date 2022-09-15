@@ -346,6 +346,7 @@ input[type=submit]:hover {
 
   header {
     flex-direction: row;
+    padding: 3%;
   }
   .itens_menu{
     position: absolute;
